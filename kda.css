@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: cover;
+    scroll-behavior: smooth;
+}
+#main{
+   overflow: hidden;
+}
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+#header{
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 46.5px;
+    background-image: url(https://d1ki6hjeuoplax.cloudfront.net/images/_imageBlock/7439233/KDAComeback.webp);
+}
+#header{
+    position: fixed;
+    top: 0;
+
+}
+#nav{
+
+}
+#nav li{ 
+    position: relative;
+    display:inline-block;
+}
+#nav > li > a{
+    color:#fff;
+}
+#nav li a{
+   
+    text-decoration: none;
+    line-height: 46.5px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav > li:hover > a{
+    color: black;
+    background-color:  rgb(11, 218, 233);
+}
+#nav .subnav{
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 3, 0.5);
+}
+#nav .subnav li:hover{
+    display: block;
+    color: black;
+    background-color:  rgb(11, 218, 233);
+}
+#nav .subnav a{
+    color: black;
+}
+#nav li:hover .subnav{
+   display: block;
+}
+#header .searchbtn{
+color: #fff;
+float: right;
+line-height: 46px;
+padding: 0px 20px;
+}
+#header .searchbtn:hover{
+    font-size: larger;
+    color: black;
+    background-color: rgb(11, 218, 233);
+    display: block;
+    padding: 0px 21px;
+    cursor: pointer;
+}
+#header .searchbox{
+    color: #fff;
+    float: right;
+    line-height: 46px;
+    padding: 0px 20px;
+    }
+#slider{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    margin-top: 46.5px;
+    padding-top:50% ;
+    background-image:url(assets/img/wp7820810.webp);
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+}
+#slider .textcontent{
+   position: absolute;
+   color: #fff;
+   bottom: 47px;
+   left: 50%;
+}
+#slider .textheading{
+    position: relative;
+    left: -48px;
+    
+}
+#slider .textmore{
+    position: relative;
+    text-align: center;
+    left:-326px;
+    padding-top: 30px;
+}
+#content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.content-section{
+    width: 800px;
+    max-width: 100%;
+    height: 500px;
+    padding: 64px 64px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content .ssheading{
+text-align: center;
+letter-spacing: 4px;
+
+
+}
+#content .sssubheading{
+    padding-top: 20px;
+    text-align: center;
+    font-style: italic;
+
+
+}
+#content .about{ 
+    padding-top: 30px;
+    text-align: justify;
+    font-size: 15px;
+    padding-bottom:30px ;
+}
+#content .mem .item{
+    margin-left:35px ;
+    margin-bottom: 20px;
+    float: left
+}
+#content .mem .item:hover{
+    transform: scale(1.2);
+
+}
+
+#content .mem .name{
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.tour{
+    color: #fff;
+    height: 1000px;
+    background-color:black;
+}
+.tick{
+    margin-top: 40px;
+}
+.tick li{
+    border-bottom: 1px solid #ccc;
+    padding: 20px 20px;
+    color: black;
+    background-color: #fff;
+}
+.tick .soldout{
+   color: #fff;
+   background-color: red;
+   padding-top:7px ;
+   padding-left: 3px;
+   padding-right: 3px;
+   margin-left: 20px;
+}
+.tick .quantity{
+    float: right;
+    color: #fff;
+    border-radius: 40%;
+    background-color: green;
+}
+.placelist{
+margin-top: 32px;
+margin-left: -8px;
+margin-right: -8px;
+
+}
+.placeitem{
+    width: 33.33333%;
+    float: left;
+    padding: 0 8px;
+  
+
+}
+.placeimg{
+    width: 100%;
+    display: block;
+}
+.placeimg:hover{
+   opacity: 0.6;
+}
+.placecontent{
+    line-height: 1.4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff;
+    padding: 16px;
+    font-size: 10px;
+   
+}
+.placeheading{
+    color: black;
+    font-weight: bold;
+
+}
+.placetime{
+    color:#9e9999;
+    margin-top: 15px;
+    margin-bottom: 0px;
+   
+}
+.placedesc{
+    font-size: 12px;
+    color: black;
+    margin-top: 15px;
+}
+.placebuy{
+   background-color: #000000;
+   color:#fff;
+   text-decoration: none;
+   padding: 11px 16px;
+   margin-top: 15px;
+   display: inline-block;
+}
+.placebuy{
+    margin-bottom: 0px;
+    border: none;
+}
+.placebuy:hover{
+    font-size: 15px;
+    background-color: rgb(220,228,230);
+    color: rgb(45,46,82);
+}
+
+#footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    background-image:url(assets/img/sera1.jpg);
+    max-width: 100%;
+    height: 800px;
+    background-position: top center;
+    background-size: cover;
+}
+
+.textend{
+    position: absolute;
+    display:flex;
+    top:800px;
+    left: 50%;
+    transform: translate(-50%);
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+}
+.end{
+    transition: 0.4s;
+    transform: translateX(0);
+    cursor: grab;
+    color: rgb(189, 212, 212);
+}
+.end:hover{
+    transform: translateY(-1rem);
+    background: -webkit-linear-gradient(120deg,hsl(192, 96%, 45%),hsl(60, 12%, 93%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#last{
+    background-color:#000000;
+    padding-bottom: 150px;
+    height: 250px;
+    
+}
+#last .line{
+    position: relative;
+    padding: 5px;
+    width: 100%;
+    background-color: #fff;
+    top:120px;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(0, 0, 0, 0.4);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.modal .modalcontainer{
+    background-color: #fff;
+    width: 900px;
+    min-height: 200px;
+    position: relative;
+    max-width: calc(100% - 32px);
+    animation: modalama ease 0.5s;
+    border: 1px solid #000000;
+}
+.modal .modalheader{
+    background-color: #009688;
+
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+}
+.iconbag{
+    margin-right: 16px;
+}
+.modalclose{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 12px;
+}
+.modalclose:hover{
+    cursor: pointer;
+    background-color:#000000;
+}
+.modalbody{
+    padding: 16px;
+}
+.modallabel{
+    display: block;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.modalinput{
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#buytickets{
+    background-color: #009688;
+    color: #fff;
+    width: 100%;
+    font-size: 15px;
+    height: 50px;
+    border: none;
+}
+#buytickets:hover{
+    cursor: pointer;
+    background-color: #ccc;
+    color: #000000;
+    font-size: 30px;
+}
+.modalfooter{
+    padding: 16px;
+    text-align: right;
+}
+.modalfooter a{
+    color: red;
+}
+.modal.open{
+    display: flex;
+}
+@keyframes modalama{
+    from {
+        opacity: 0;
+        transform: translateY(-150px);
+    }
+
+
+
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.success {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    background-color:  #009688;
+
+    z-index: 9999;
+    display: none;
+    border: 1px solid #000000;
+}
+
+.success i {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.success p.done {
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 8px;
+}
+.contact{
+    height: 150px;
+    width: 675px;
+    margin-top: 20px;
+}
+.contact {
+    display: flex;
+    position: relative;
+  }
+  
+.contactleft {
+    float: left;
+  }
+.contactleft .contacttext{
+    padding: 5px;
+}
+.ti-email:before {
+    content: "\e75a";
+    padding-right: 20px;
+}
+.ti-mobile:before {
+    content: "\e621";
+    padding-right: 20px;
+}
+.ti-location-pin:before {
+    content: "\e693";
+    padding-right: 20px;
+}
+.contactright {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+  }
+.contactinput {
+    margin-right: 10px;
+    padding: 10px;
+  }
+.cttwo .contactinput{
+    width: 400px;
+    margin-top: 10px;
+}
+.btnsend{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.btnsend button[type="submit"] {
+    width: 100px;
+    height: 40px;
+    background-color: #000000;
+    color: #fff;
+    border: 0px;
+  }
+  .btnsend:hover button[type="submit"] {
+    background-color: #ccc;
+    cursor: pointer;
+  }
+.ads{
+    position:relative;
+    top:150px;
+    left: 635px;
+}
+.thanks{
+    color: #fff;
+    position: relative;
+    top: 170px;
+    left: 620px;
+}
+.ads i:hover{
+    font-size: 30px;
+    cursor: pointer;
+}
+@media(min-width:1024px){
+
+}
+@media(max-width:1023px) and (min-width:740px){
+    .searchbox{
+        position: relative;
+        right: -10px;
+        bottom: 20px;
+    }
+    #header{
+    height: 70px;
+    }
+    .ads{
+        position: relative;
+        left:50%;
+        transform: translate(-50);
+    }
+    .rps{
+        position: relative;
+        left: -635px;
+        top:35px;
+    }
+    .subnav{
+        position: relative;
+        top: 37px;
+        left: -635px;
+    }
+    #slider .textheading{
+        position: relative;
+        left: -40px;
+    }
+    #slider .textmore{
+        position: relative;
+        left: -200px;
+    }
+     .item{
+        position: relative;
+        left: 50px;
+     }
+     .tour{
+        height: 1210px;
+     }
+     p.thanks{
+        position: relative;
+        left: 390px;
+     }
+}  
+@media(max-width:739px){
+    #nav >l i{
+        display: block;
+    }
+}
